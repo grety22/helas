@@ -1,0 +1,22 @@
+footer {
+    background-position: bottom;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    // height: 200px;
+    width: fit-content;
+    font-family: 'avenir-next';
+    font-weight: normal;
+    background-color: transparent;
+    margin: 0 auto;
+    p {
+        font-size: 12px;
+        padding: 10px 70px;
+        margin-bottom: 0;
+        background-color: rgba(white, .5);
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        box-shadow: 0px 0px 22px -1px rgba(0,0,0,0.25);
+    }
+}

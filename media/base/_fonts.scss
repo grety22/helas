@@ -1,0 +1,27 @@
+//font-face($name, $path, $weight: null, $style: null, $exts: eot woff2 woff ttf svg)
+//dont load if typekit or google font
+/*
+100	Thin (Hairline)
+200	Extra Light (Ultra Light)
+300	Light
+400	Normal
+500	Medium
+600	Semi Bold (Demi Bold)
+700	Bold
+800	Extra Bold (Ultra Bold)
+900	Black (Heavy)italic
+*/
+
+$font_path: '../fonts/';
+$font_name: 'juana';
+@include font-face($font_name, $font_path+'Juana Light', 300, null, ttf);
+@include font-face($font_name, $font_path+'Juana Regular', 400, null, ttf);
+@include font-face($font_name, $font_path+'Juana Medium', 500, null, ttf);
+@include font-face($font_name, $font_path+'Juana SemiBold', 600, null, ttf);
+@include font-face($font_name, $font_path+'Juana Bold', 700, null, ttf);
+@include font-face($font_name, $font_path+'Juana Black', 900, null, ttf);
+
+$font_name: 'avenir-next';
+@include font-face($font_name, $font_path+'AvenirNext-Reg', 400, null, ttf);
+@include font-face($font_name, $font_path+'AvenirNext-Med', 500, null, ttf);
+@include font-face($font_name, $font_path+'AvenirNext-Bold', 700, null, ttf);
